@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://beust.com/testng/testng-1.0.dtd" >
+
+<suite name="Ncube">
+    <test name="hotline">
+
+        <parameter name="browsers" value="chrome" />
+
+        <classes>
+            <class name="tests.HotLineTest"/>
+        </classes>
+    </test>
+</suite>
